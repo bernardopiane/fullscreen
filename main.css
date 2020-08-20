@@ -1,0 +1,113 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand img {
+    height: 4em;
+}
+
+.dropdown-menu.show {
+    border-radius: 0px;
+}
+
+.carousel {
+    padding-top: 100px;
+}
+
+#apps-row div {
+    position: relative;
+}
+
+#apps-row div h3 {
+    font-size: 1.5em;
+}
+
+.about {
+    background: #272727 none repeat scroll 0% 0%;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .about-title {
+        text-align: center;
+        font-weight: 300;
+        font-size: 2em;
+        line-height: normal;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-title {
+        text-align: right;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: normal;
+    }
+}
+
+.contato {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: white;
+    /* background-image: linear-gradient(to right top, #4155da, #5065d5, #6074cd, #7182c5, #838fbb); */
+    /* background-image: linear-gradient(to right top, #4155da, #2e63df, #196fe3, #017be5, #0086e6); */
+    background-image: linear-gradient(to right top, #7fbbb9, #6cb7b5, #56b3b1, #3baeae, #00aaaa);
+}
+
+#exampleFormControlTextarea1 {
+    min-height: 9em;
+}
+
+#formSubmit {
+    float: right;
+}
+
+.mapa {
+    height: 80vh;
+}
+
+.procon {
+    color: white;
+    background-color: #323232;
+}
+
+.procon p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer {
+    color: #939393;
+    background-color: #272727;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.share{
+    background-color: #181717;
+}
+
+.share a i {
+    color: #939393;
+    font-size: 2em;
+    transition: color 0.5s ease;
+}
+
+#facebook:hover i{
+    color: #3B5998;
+}
+
+#twitter:hover i{
+    color: #1DA1F2;
+}
+
+#insta:hover i{
+    color: white;
+}
